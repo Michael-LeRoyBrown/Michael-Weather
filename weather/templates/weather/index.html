@@ -1,0 +1,14 @@
+{% extends 'weather/base.html' %}
+
+
+{% block content %}
+    <div class="jumbotron">
+        <h1 class="display-4">Find out the weather!</h1>
+            <p class="lead">This website uses open world API to show live weather anywhere in the world!</p>
+                <hr class="my-4">
+            <p>Click the button below to start finding out the weather.</p>
+            <p class="lead">
+            <a class="btn btn-outline-success btn-lg" href="{% url 'weather:search' %}" role="button">Search</a>
+        </p>
+    </div>
+{% endblock content %}
