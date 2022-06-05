@@ -10,6 +10,9 @@ django-bootstrap4 = "*"
 python-decouple = "*"
 whitenoise = "*"
 gunicorn = "*"
+psycopg2 = "*"
+django-heroku = "*"
+heroku = "*"
 
 [dev-packages]
 
