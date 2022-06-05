@@ -8,6 +8,7 @@ django = "*"
 requests = "*"
 django-bootstrap4 = "*"
 python-decouple = "*"
+whitenoise = "*"
 
 [dev-packages]
 
