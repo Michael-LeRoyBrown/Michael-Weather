@@ -9,6 +9,7 @@ requests = "*"
 django-bootstrap4 = "*"
 python-decouple = "*"
 whitenoise = "*"
+gunicorn = "*"
 
 [dev-packages]
 
